@@ -16,7 +16,13 @@ public class HelloWorld {
         double tipAmount = total * tip;
         double finalTotal = (tipAmount * peopleNum) + total;
 
+        System.out.println("Total Tip:" + (tipAmount*peopleNum));
+        System.out.println("Tip Per Person:" + tipAmount);
+        System.out.println("Total Per Person:" + (tipAmount+total)/peopleNum);
         System.out.println("Final Total:" + finalTotal);
+
+
+
 
     }
 
